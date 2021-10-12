@@ -1,0 +1,163 @@
+@media screen and (max-width:1200px){
+    ul.main-menu li {
+        padding: 15px 5px;
+    }
+}
+
+@media screen and (max-width:1110px){
+    .header-middle-cont-right{
+        padding: 5px 0px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .hour-info, 
+    .number-info, 
+    .mail-info {
+        padding: 0px 5px;
+    }
+    
+    .hour-info-cont, 
+    .number-info-cont, 
+    .mail-info-cont {
+        padding: 2px 7px;
+    }
+    
+    .hour-info i, 
+    .number-info i, 
+    .mail-info i {
+        font-size: 20px;
+    }
+    
+    .hour-info-cont h3, 
+    .number-info-cont h3, 
+    .mail-info-cont h3 {
+        padding-bottom: 2px;
+        padding-top: 0px;
+        font-size: 11px;
+    }
+    
+    .hour-info-cont p, 
+    .number-info-cont p, 
+    .mail-info-cont p {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    ul.main-menu li a {
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+    
+    ul.search form {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:975px){
+    ul.head-mid li{
+        padding: 0px 5px;
+    }
+}
+@media screen and (max-width:915px){
+    .blank-side-left {
+        display: none;
+    }
+    
+    .header-middle-cont-right {
+        width: 100%;
+        display: block;
+    }
+    
+    ul.head-mid {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .header-socials {
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .slide-head-txt-box {
+        width: 100%;
+        border: none;
+        margin-bottom: 15px;
+    }
+    
+    .slide-head-txt-box h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:768px){
+    .logo img {
+        display: block;
+        margin: auto;
+        padding-bottom: 40px;
+        width: 200px;
+    }
+    
+    .hour-info, 
+    .number-info, 
+    .mail-info {
+        width: 30%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .hour-info i, 
+    .number-info i, 
+    .mail-info i {
+        float: none;
+    }
+    ul.main-menu{
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    ul.search li {
+        float: right;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:490px){
+    .hour-info, 
+    .number-info, 
+    .mail-info {
+        padding: 0;
+    }
+    
+    .hour-info-cont, 
+    .number-info-cont, 
+    .mail-info-cont {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:410px){
+    .top-right-info {
+        display: block;
+    }
+    
+    .hour-info, 
+    .number-info, 
+    .mail-info {
+        padding-bottom: 20px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .slide-head-txt-box h2 {
+        font-size: 25px;
+    }
+}
